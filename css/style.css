@@ -278,3 +278,43 @@ margin-right: 5px;
       padding: 3em;
       font-weight: bold;
   }
+
+
+  @media (min-width:0px) and (max-width: 999px) {
+    .about{
+        padding-left: 0.4em;
+        padding-top: 0.8em;
+        padding-right: 0.4em;
+        font-family: var(--font);
+        font-size: 38px;
+        color: var(--base-color);
+        font-weight: bolder;
+    
+    }
+    .gradient1{
+        font-size: 2em;
+        background: -webkit-linear-gradient(var(--secondary-color), var(--sec-shade),var(--secondary-color),
+        var(--base-color),var(--primary-color),var(--primary-color));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+}
+
+.contactfont{
+    font-family: var(--font);
+}
+
+.contactcol{
+    background-color: var(--primary-color);
+}
+
+.contactcol1{
+    color: var(--primary-color);
+}
+
+.border-primary{
+    border: 20px solid var(--primary-color);  
+    border-image-source: linear-gradient(var(--sec-shade),var(--base-color),var(--sec-shade),var(--base-color), var(--hover-color));
+    border-image-slice: 20;
+
+}
