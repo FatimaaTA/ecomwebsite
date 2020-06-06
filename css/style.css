@@ -19,7 +19,7 @@ font-family: var(--font);
 padding: 5px 0;
 }
 
-.fa-facebook,.fa-twitter,.fa-youtube-play,.fa-google-plus,.fa-user,.fa-shopping-bag{
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-snapchat-ghost,.fa-user,.fa-shopping-bag{
 color:var(--base-color);
 font-size: 17px;
 margin-right: 5px;
@@ -67,7 +67,7 @@ margin-right: 5px;
 
     }
 
-    .fa-facebook:hover,.fa-twitter:hover,.fa-youtube-play:hover,.fa-google-plus:hover,.fa-user:hover,.fa-shopping-bag:hover,.footer1 a:hover{
+    .fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-snapchat-ghost:hover,.fa-user:hover,.fa-shopping-bag:hover,.footer1 a:hover{
         color: var(--hover-color) !important;
 
     }
@@ -250,3 +250,31 @@ margin-right: 5px;
 
         
     }
+
+  
+    
+.about{
+    padding-left: 0.4em;
+    padding-top: 0.8em;
+    padding-right: 0.4em;
+    font-family: var(--font);
+    font-size: 78px;
+    color: var(--base-color);
+    font-weight: bolder;
+
+}
+
+
+.gradient1{
+    font-size: 2em;
+    background: -webkit-linear-gradient(var(--secondary-color), var(--sec-shade),var(--secondary-color),
+    var(--base-color),var(--primary-color),var(--primary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .abouttext{
+      color: var(--base-color);
+      padding: 3em;
+      font-weight: bold;
+  }
